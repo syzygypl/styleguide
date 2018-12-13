@@ -1,5 +1,44 @@
 # SYZYGY PL - CSS Styleguide
 
+* CSS
+* Sass
+* BEM
+
+---
+
+### CSS
+* Always style by class name (_never `id` or tag name selectors_). 
+* Order your declarations as proposed in (Idiomatic CSS)[https://github.com/necolas/idiomatic-css#declaration-order]
+* Make sure that your preferable solution meets desirable Browsers Support.
+
+**Exceptions**
+* `content` declaration should be on the first place in Declaration Order.
+
+### [Sass](https://sass-lang.com/)
+* Always use `.scss` syntax.
+* Use all the benefits - variables, nesting, mixins, build-in and custom functions,
+  placeholders, etc. - to make code smarter, simpler, clearer and easier to maintain.
+* Prefer `hex` or other color model over named colors (_`#ff0000` rather than `red`_).
+
+### [BEM](https://en.bem.info/methodology/)
+* Use BEM in it's most popular (Two Dashes style)[two dashes style] syntax.
+* 1 block per 1 file with identical name (_e.g. `.card` block in `_card.scss` file_).
+* Declare block name only once at top of the file. Use `$root` / (`$this` variable)[https://www.devbridge.com/articles/7-sass-techniques-to-help-you-write-better-code/]
+  to reuse it.
+* Media Queries should be placed at the end, once for each block rather than
+  independently for block elements.
+ 
+**Exceptions**
+* Using CSS resets / normalizers is allowed ((yes, it's against BEM)[https://en.bem.info/methodology/faq/#why-shouldnt-i-use-a-css-reset])
+* We use (No Naming style)[https://en.bem.info/methodology/naming-convention/#no-namespace-style]
+  syntax for "state modifiers" - (`.-is-*` and `.-has`).
+* Styling `img` and `svg` by tag name is allowed if there's no reasonable solution
+  for adding a class name (_e.g. `svg` included directly in TWIG or content from WYSIWYG_). 
+* In some cases (_like using external component with imposed markup_) it may be
+  unavoidable to break BEM naming convention rules.
+
+---
+
 ## License
 MIT License
 
