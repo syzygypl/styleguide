@@ -39,6 +39,24 @@
 
 ---
 
+## Resources
+
+### CSS
+* [CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html)
+* [Idiomatic CSS](https://github.com/necolas/idiomatic-css) by Nicolas Gallagher
+
+### Sass
+* [Sass documentation](https://sass-lang.com/)
+* ["7 Sass techniques to help you write better code"](https://www.devbridge.com/articles/7-sass-techniques-to-help-you-write-better-code/)
+  by Andrius Juskenas
+
+### BEM
+* [BEM Methodology](https://en.bem.info/methodology/)
+ 
+
+### Files organization
+* [BEM - File structure organization](https://en.bem.info/methodology/filestructure/)
+
 ## License
 MIT License
 
