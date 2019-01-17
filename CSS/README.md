@@ -14,11 +14,13 @@
 **Exceptions**
 * `content` declaration should be on the first place in Declaration Order.
 
+
 ### Sass
 * Always use `.scss` syntax.
 * Use all the benefits - variables, nesting, mixins, build-in and custom functions,
   placeholders, etc. - to make code smarter, simpler, clearer and easier to maintain.
 * Prefer `hex` or other color model over named colors (_`#ff0000` rather than `red`_).
+
 
 ### BEM
 * Use BEM in it's most popular (Two Dashes style)[two dashes style] syntax.
@@ -32,12 +34,16 @@
 * Using CSS resets / normalizers is allowed ((yes, it's against BEM)[https://en.bem.info/methodology/faq/#why-shouldnt-i-use-a-css-reset])
 * We use (No Naming style)[https://en.bem.info/methodology/naming-convention/#no-namespace-style]
   syntax for "state modifiers" - (`.-is-*` and `.-has`).
-* Styling `img` and `svg` by tag name is allowed if there's no reasonable solution
-  for adding a class name (_e.g. `svg` included directly in TWIG or content from WYSIWYG_). 
+* Styling `img` and `svg` by tag name is allowed. (Why?)[FAQ.md#styling-img-and-svg-by-tag-name] 
 * In some cases (_like using external component with imposed markup_) it may be
   unavoidable to break BEM naming convention rules.
 
+
 ---
+
+
+## [Solved problems](FAQ.md)
+
 
 ## Resources
 
@@ -56,6 +62,10 @@
 
 ### Files organization
 * [BEM - File structure organization](https://en.bem.info/methodology/filestructure/)
+
+
+---
+
 
 ## License
 MIT License
