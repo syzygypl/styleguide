@@ -1,8 +1,8 @@
 # SYZYGY PL - CSS Styleguide
 
-* CSS
-* Sass
-* BEM
+* [CSS](#css)
+* [Sass](#sass)
+* [BEM](#bem)
 
 ---
 
@@ -14,13 +14,13 @@
 **Exceptions**
 * `content` declaration should be on the first place in Declaration Order.
 
-### [Sass](https://sass-lang.com/)
+### Sass
 * Always use `.scss` syntax.
 * Use all the benefits - variables, nesting, mixins, build-in and custom functions,
   placeholders, etc. - to make code smarter, simpler, clearer and easier to maintain.
 * Prefer `hex` or other color model over named colors (_`#ff0000` rather than `red`_).
 
-### [BEM](https://en.bem.info/methodology/)
+### BEM
 * Use BEM in it's most popular (Two Dashes style)[two dashes style] syntax.
 * 1 block per 1 file with identical name (_e.g. `.card` block in `_card.scss` file_).
 * Declare block name only once at top of the file. Use `$root` / (`$this` variable)[https://www.devbridge.com/articles/7-sass-techniques-to-help-you-write-better-code/]
