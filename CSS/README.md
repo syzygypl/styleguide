@@ -23,7 +23,7 @@
 
 
 ### BEM
-* Use BEM in it's most popular (Two Dashes style)[two dashes style] syntax.
+* Use BEM in it's most popular [Two Dashes style](https://en.bem.info/methodology/naming-convention/#two-dashes-style) syntax.
 * 1 block per 1 file with identical name (_e.g. `.card` block in `_card.scss` file_).
 * Declare block name only once at top of the file. Use `$root` / [`$this` variable](https://www.devbridge.com/articles/7-sass-techniques-to-help-you-write-better-code/)
   to reuse it.
