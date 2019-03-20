@@ -8,7 +8,7 @@
 
 ### CSS
 * Always style by class name (_never `id` or tag name selectors_). 
-* Order your declarations as proposed in [Idiomatic CSS](https://github.com/necolas/idiomatic-css#declaration-order)
+* Order your declarations as proposed in [Idiomatic CSS](https://github.com/necolas/idiomatic-css#declaration-order).
 * Make sure that your preferable solution meets desirable Browsers Support.
 
 **Exceptions**
