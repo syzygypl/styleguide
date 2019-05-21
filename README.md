@@ -1,5 +1,5 @@
 # SYZYGY PL Styleguide
 
-## [JavaScript](https://github.com/syzygypl/javascript)
+## [JavaScript](JS/README.md)
 ## [CSS/Sass](CSS/README.md)
 ## [Accessibility](a11y/README.md)
