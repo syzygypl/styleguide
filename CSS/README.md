@@ -7,6 +7,7 @@
 ---
 
 ### CSS
+* [Mobile First](http://bradfrost.com/blog/post/mobile-first-responsive-web-design/) approach is usualy the best choice.
 * Always style by class name (_never `id` or tag name selectors_). 
 * Order your declarations as proposed in [Idiomatic CSS](https://github.com/necolas/idiomatic-css#declaration-order).
 * Make sure that your preferable solution meets desirable Browsers Support.
@@ -50,6 +51,8 @@
 ### CSS
 * [CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html)
 * [Idiomatic CSS](https://github.com/necolas/idiomatic-css) by Nicolas Gallagher
+* [mobile-first responsive web design](http://bradfrost.com/blog/post/mobile-first-responsive-web-design/) by Brad Frost
+* [Reasons not to use IDs in CSS](https://dev.to/claireparkerjones/reasons-not-to-use-ids-in-css-4ni4) by Claire Parker-Jones
 
 ### Sass
 * [Sass documentation](https://sass-lang.com/)
