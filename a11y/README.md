@@ -26,6 +26,7 @@
 * [The 6 Simplest Web Accessibility Tests Anyone Can Do](http://www.karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do/)
 * [Inclusive Components](https://inclusive-components.design/)
 * [HTML is the Web](https://www.petelambert.com/journal/html-is-the-web/)
+* [What a Year of Learning and Teaching Accessibility Taught Me](https://www.sarasoueidan.com/blog/what-accessibility-taught-me/)
 
 ### Tools for everyday use:
 * [AXE Chrome Plugin](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
